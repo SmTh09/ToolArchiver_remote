@@ -11,7 +11,7 @@ import CoreData
 struct ContentView: View {
     
     var body: some View {
-        Text("ENSABS")
+        Text("ENSAB")
         .foregroundColor(.blue)
         .bold()
     }}
