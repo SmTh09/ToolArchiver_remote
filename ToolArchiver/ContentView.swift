@@ -14,14 +14,17 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                     Image("icon-logo")
+                     Image("Login")
                         .resizable()
-                         .scaledToFit()
-                         .clipShape(Circle())
-                         .overlay(Circle().stroke(Color(red: 39 / 255, green: 113 / 255, blue: 233 / 255), lineWidth: 5))
-                         .shadow(radius: 20)
-                         
-                     }
+                        .scaledToFill()
+                VStack{
+                    Image("LogoEnsabs")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 300, height: 300)
+                    
+                } //VStack
+            }// ZStack
         } //EOT Navigation
     }
 }
