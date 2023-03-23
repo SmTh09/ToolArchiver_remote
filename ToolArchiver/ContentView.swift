@@ -6,14 +6,15 @@
 //
 
 import SwiftUI
-import CoreData
+
 
 struct ContentView: View {
     
     var body: some View {
         Text("ENSABS")
         .foregroundColor(.blue)
-        .bold()
+      
+        
     }}
 
 struct ContentView_Previews: PreviewProvider {
@@ -21,5 +22,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
 
 
