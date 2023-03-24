@@ -44,6 +44,7 @@
 		D6BC92B429CCCE370057095A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D6BC92B329CCCE370057095A /* FirebaseStorage */; };
 		D6BC92B629CCCE370057095A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D6BC92B529CCCE370057095A /* FirebaseStorageCombine-Community */; };
 		D6BC92B829CCCF2D0057095A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6BC92B729CCCF2C0057095A /* GoogleService-Info.plist */; };
+		D8BA1E2C29CDE7E400CD1EC3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BA1E2B29CDE7E400CD1EC3 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		D6724AC629CCB52300940914 /* ToolArchiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolArchiverUITests.swift; sourceTree = "<group>"; };
 		D6724AC829CCB52300940914 /* ToolArchiverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolArchiverUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D6BC92B729CCCF2C0057095A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8BA1E2B29CDE7E400CD1EC3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				D6724AA529CCB52000940914 /* ToolArchiverApp.swift */,
 				D6724AA729CCB52000940914 /* Persistence.swift */,
 				D6724AAC29CCB52000940914 /* ContentView.swift */,
+				D8BA1E2B29CDE7E400CD1EC3 /* HomeView.swift */,
 				D6724AAE29CCB52200940914 /* Assets.xcassets */,
 				D6724AB029CCB52200940914 /* ToolArchiver.entitlements */,
 				D6724AA929CCB52000940914 /* ToolArchiver.xcdatamodeld */,
@@ -358,6 +361,7 @@
 				D6724AA629CCB52000940914 /* ToolArchiverApp.swift in Sources */,
 				D6724AA829CCB52000940914 /* Persistence.swift in Sources */,
 				D6724AAD29CCB52000940914 /* ContentView.swift in Sources */,
+				D8BA1E2C29CDE7E400CD1EC3 /* HomeView.swift in Sources */,
 				D6724AAB29CCB52000940914 /* ToolArchiver.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
